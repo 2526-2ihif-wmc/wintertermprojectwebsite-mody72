@@ -80,7 +80,7 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
-    color: #ccc;
+    color: #ffffff;
     padding: 6px 12px;
     border-radius: 6px;
     font-size: 15px;
@@ -116,4 +116,32 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.category-list {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.category-item {
+    background: #151a2d;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #26263a;
+}
+
+.category-item:hover {
+    background: #8f3db8;
+    transform: translateY(-4px);
 }

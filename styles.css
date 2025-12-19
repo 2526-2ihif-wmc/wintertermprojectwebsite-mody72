@@ -202,8 +202,8 @@ header {
     border-radius: 1.5rem;
     height: 20rem;
     display: flex;
+    flex-direction: column;   
     justify-content: center;
-    align-items: center;
 }
 
 .feature-image-box img {
@@ -211,5 +211,11 @@ header {
     height: 100%;
     border-radius: 1rem;
     object-fit: cover;
-    display: block;
+}
+
+.caption {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: #bbb;
+    text-align: center;
 }

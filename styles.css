@@ -31,17 +31,26 @@ header {
     border-radius: 8px;
     padding: 10px;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 26rem;
 }
 
 .card img {
     width: 100%;
+    height: 18rem;
     border-radius: 6px;
+    object-fit: cover;
     display: block;
 }
 
 .card p {
-    margin-top: 8px;
-    font-size: 14px;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: #bbb;
+    text-align: center;
 }
 
 .card a {
@@ -147,6 +156,7 @@ header {
     background: #8f3db8;
     transform: translateY(-4px);
 }
+
 
 
 /* Features */
